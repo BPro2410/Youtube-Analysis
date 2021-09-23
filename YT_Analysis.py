@@ -12,7 +12,6 @@ import numpy as np
 import time
 
 
-
 ### ---- YT download class
 ''' Downloads Information from various youtube channels using
 selenium for web scraping data. This code only works for german
