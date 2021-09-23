@@ -119,7 +119,7 @@ class YTData:
 ytdata = YTData("spontanablack")            # Setup
 ytdata.Preprocess(n = 10, scroll = True)    # Processing
 ytdata.topvids                              # Top 10 clicked videos
-c = ytdata.data                             # Show all scraped data
+ytdata.data                                 # Show all scraped data
 ytdata.PlotViews()                          # Plot video views
 
 
